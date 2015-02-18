@@ -1,7 +1,7 @@
-body {
+/*body {
   background: url("");
   background-size: cover;
-  /*color: #54b847;*/
+  color: #54b847;
   color: #56bdd6;
 }
 
@@ -9,4 +9,15 @@ body {
   background-color: black;
   max-width: 1000px;
   float: center;
+}*/
+
+fieldset {
+  border: 0;
+}
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+select {
+  width: 200px;
 }

@@ -5,11 +5,46 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <meta charset="utf-8">
+    <script src="js/jquery-ui.js"></script>
+    <title>Movie Tickets</title>
   </head>
   <body>
-    <div class="container">
-"hello world"
-    </div>
+<div class="demo">
+
+<form id="ticketForm">
+
+  <fieldset>
+    <label for="movie">Select a Movie you would like to see:</label>
+    <select name="movie" id="movie">
+      <option>Agent Man of Action</option>
+      <option>2 hours of Explosions and Car Chases</option>
+      <option>I'm Sad, Marry Me</option>
+      <option selected="selected">Yappy the Talking Slug</option>
+      <option>The Blond Chick Gets It First</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <label for="times">Select showing:</label>
+    <select name="times" id="times">
+      <option>10:10am</option>
+      <option>12:45pm</option>
+      <option>4pm</option>
+      <option selected="selected">7:05pm</option>
+      <option>10:15pm</option>
+      <option>Midnight</option>
+    </select>
+  </fieldset>
+
+<button name="button" class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-film"></span></button>
+</form>
+
+  <form id="ageCheck">
+    <label for="age">Hey, how old are you?</label>
+    <input type="text" id="age">
+    <button type="submit" class="btn btn-xs btn-danger"><span class="glyphicon glyphicon-credit-card"></span></button>
+  </form>
+</div>
   </body>
 </html>

@@ -1,0 +1,12 @@
+body {
+  background: url("");
+  background-size: cover;
+  /*color: #54b847;*/
+  color: #56bdd6;
+}
+
+.container {
+  background-color: black;
+  max-width: 1000px;
+  float: center;
+}
